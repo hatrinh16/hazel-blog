@@ -1,0 +1,29 @@
+:root {
+--branch-purple: #8c86df;
+--branch-yellow: yellow;
+
+--screen-xs: 320px;
+--screen-sm: 400px;
+--screen-md: 700px;
+--screen-lg: 1024px;
+}
+
+
+
+
+
+.title {
+    font-size: 35px;
+    color: var(--branch-purple);
+    @media screen and (max-width: 600px){
+        font-size: 22px;
+        color: red;
+        }
+        @media screen and (min-width) and (max-width) {
+            
+        } 
+    }
+body {
+    max-width: 900px;
+    margin: 0 auto;
+}
